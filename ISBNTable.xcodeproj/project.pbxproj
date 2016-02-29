@@ -13,6 +13,9 @@
 		8AE347AD1C84A6900029C178 /* ISBNTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AE347AB1C84A6900029C178 /* ISBNTable.xcdatamodeld */; };
 		8AE347AF1C84A6900029C178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE347AE1C84A6900029C178 /* Assets.xcassets */; };
 		8AE347B21C84A6900029C178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE347B01C84A6900029C178 /* LaunchScreen.storyboard */; };
+		8AE347BA1C84A9C70029C178 /* EntrarISBN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE347B91C84A9C70029C178 /* EntrarISBN.swift */; };
+		8AE347BC1C84AD730029C178 /* ISBNTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE347BB1C84AD730029C178 /* ISBNTableView.swift */; };
+		8AE347BE1C84EDE40029C178 /* VerDetalles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE347BD1C84EDE40029C178 /* VerDetalles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8AE347AE1C84A6900029C178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE347B11C84A6900029C178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE347B31C84A6900029C178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE347B91C84A9C70029C178 /* EntrarISBN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrarISBN.swift; sourceTree = "<group>"; };
+		8AE347BB1C84AD730029C178 /* ISBNTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISBNTableView.swift; sourceTree = "<group>"; };
+		8AE347BD1C84EDE40029C178 /* VerDetalles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerDetalles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				8AE347B01C84A6900029C178 /* LaunchScreen.storyboard */,
 				8AE347B31C84A6900029C178 /* Info.plist */,
 				8AE347AB1C84A6900029C178 /* ISBNTable.xcdatamodeld */,
+				8AE347B91C84A9C70029C178 /* EntrarISBN.swift */,
+				8AE347BB1C84AD730029C178 /* ISBNTableView.swift */,
+				8AE347BD1C84EDE40029C178 /* VerDetalles.swift */,
 			);
 			path = ISBNTable;
 			sourceTree = "<group>";
@@ -99,7 +108,6 @@
 				TargetAttributes = {
 					8AE347A01C84A6900029C178 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 6YR2978QFM;
 					};
 				};
 			};
@@ -140,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE347AD1C84A6900029C178 /* ISBNTable.xcdatamodeld in Sources */,
+				8AE347BE1C84EDE40029C178 /* VerDetalles.swift in Sources */,
 				8AE347A71C84A6900029C178 /* ViewController.swift in Sources */,
 				8AE347A51C84A6900029C178 /* AppDelegate.swift in Sources */,
+				8AE347BA1C84A9C70029C178 /* EntrarISBN.swift in Sources */,
+				8AE347BC1C84AD730029C178 /* ISBNTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ISBNTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mine.org.ISBNTable;
@@ -263,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ISBNTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mine.org.ISBNTable;
